@@ -1,1 +1,23 @@
-GET http://localhost:3333
+GET http://localhost:3333/get
+
+###
+
+GET http://localhost:3333/get?id=934144aa-3074-47de-9b2e-d760c0560858
+
+###
+
+POST http://localhost:3333/post
+Content-Type: application/json
+
+{
+    "name":"Maria",
+    "idade":"51"
+}
+
+###
+
+DELETE http://localhost:3333/delete/789456123
+
+###
+
+PUT http://localhost:3333/put/934144aa-3074-47de-9b2e-d760c0560858/20
